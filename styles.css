@@ -153,8 +153,8 @@ padding: 90px 0 120px 0;
 }
 
 .card {
-    height: 400px;
-    width: 320px;
+    height: 410px;
+    width: 370px;
 }
 
 .where {
@@ -203,5 +203,10 @@ padding: 90px 0 120px 0;
 .circle h1 {
     display: block;
     opacity: 0.6;
+}
+
+.card {
+    height: 370px;
+    width: 370px;
 }
 }
