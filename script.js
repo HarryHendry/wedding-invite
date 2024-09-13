@@ -30,3 +30,25 @@
         }
     }, 1000);
 
+
+// Get the modal and button elements
+var modal = document.getElementById("menuModal");
+var btn = document.getElementById("openModalBtn");
+var span = document.getElementsByClassName("close")[0];
+
+// Open the modal when the user clicks the button
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Close the modal when the user clicks the close button (x)
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside the modal
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
